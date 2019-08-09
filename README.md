@@ -5,9 +5,11 @@ For a given MAC address  retrieve company name
 Assuming you have Python 3.x installed on your system
 
 python --version
+
 Python 3.6.4
 
 python MacLookup.py --help
+
 usage: MacLookup.py [-h] -mac MACADDRESS
 
 optional arguments:
@@ -16,5 +18,7 @@ optional arguments:
                         Mac address
                         
 # Sample snippet 
+
 usage : python MacLookup.py --macaddress 44:38:39:ff:ef:57 
+
 output : MAC address belongs to Cumulus Networks, Inc
