@@ -1,4 +1,4 @@
-# maclookup
+# MACLookup Tool
 For a given MAC address  retrieve company name
 
 # Pre-requisite 
