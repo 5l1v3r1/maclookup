@@ -1,6 +1,13 @@
 # MACLookup Tool
 For a given MAC address  retrieve company name
 
+Program accepts a command line parameter of a MAC address
+Program queries the API for a result over the network
+Program outputs the Company Name associated with that MAC address 
+
+Step 1. pip install setup.py
+Step 2. python MacLookup.py -mac 6c:96:cf:de:a1:fd 
+
 # Pre-requisite 
 Assuming you have Python 3.x installed on your system
 
