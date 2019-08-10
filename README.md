@@ -64,3 +64,16 @@ Once you have the image locally available,execute below command to use utility
 docker run --rm -it prajithnair/maclookup --mac 5a:32:d8:eb:23:8c
 
 ```
+
+# Sample example of running container with argument
+
+```
+docker run --rm -it prajithnair/maclookup --mac 6c:96:cf:de:a1:fd
+MAC address belongs to Apple, Inc and virtual machine is Not detected
+```
+
+```
+docker run --rm -it prajithnair/maclookup --mac 6c:10-202.2-
+Supplied input is invalid MAC Address!
+
+```
