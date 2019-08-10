@@ -16,9 +16,15 @@ Step 2. python MacLookup.py -mac 6c:96:cf:de:a1:fd
 # Pre-requisite 
 Assuming you have Python 3.x installed on your system
 
-** python --version ** 
+Check python version on your system 
 
-** Python 3.6.4 **
+```
+python --version
+
+Python 3.6.4
+```
+
+# CLI command to retrieve MAC address details
 
 ```
 python MacLookup.py --help
