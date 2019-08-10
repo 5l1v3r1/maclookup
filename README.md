@@ -49,3 +49,18 @@ python MacLookup.py --macaddress 44:38:39:ff:ef:57
 MAC address belongs to Cumulus Networks, Inc
 
 ```
+
+# Using Ephemeral Docker Containers as CLI Applications
+
+You can pull docker image to local system using below command
+
+```
+docker pull prajithnair/maclookup
+```
+
+Once you have the image locally available,execute below command to use utility
+
+```
+docker run --rm -it prajithnair/maclookup --mac 5a:32:d8:eb:23:8c
+
+```
