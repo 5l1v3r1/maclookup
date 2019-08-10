@@ -10,7 +10,7 @@ For a given MAC address  retrieve company name and virtual machine details
 Install required packages
 
 ```
-Step 1. pip install setup.py
+Step 1. python setup.py install
 ```
 
 Execute the script with MAC address as an argument 
