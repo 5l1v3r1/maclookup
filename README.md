@@ -39,6 +39,9 @@ optional arguments:
 
 # Sample snippet 
 
-usage : python MacLookup.py --macaddress 44:38:39:ff:ef:57 
+```
+python MacLookup.py --macaddress 44:38:39:ff:ef:57 
 
-output : MAC address belongs to Cumulus Networks, Inc
+MAC address belongs to Cumulus Networks, Inc
+
+```
