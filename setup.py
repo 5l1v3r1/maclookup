@@ -9,12 +9,11 @@ try:
 except ImportError:
     from distutils.core import setup, find_packages
 
-REQUIRES = ["requests>=2.22.0","argparse","re"]
+REQUIRES = ["requests>=2.22.0","argparse","regex"]
 setup(
     name='maclookup',
     version='1.0',
     description="MAC address vendor lookup",
-    author_email="prajithnair87@gmail.com",
     keywords=["maclookup", "mac address"],
     install_requires=REQUIRES,
     packages=find_packages(),
