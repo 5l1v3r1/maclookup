@@ -1,5 +1,5 @@
 # MACLookup Tool
-For a given MAC address  retrieve company name
+For a given MAC address  retrieve company name and virtual machine details
 
 ```
 Program accepts a command line parameter of a MAC address
